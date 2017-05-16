@@ -1,20 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+<script src="/lib/w3.js"></script>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>Martyna Sedlmayr</title>
+    <title>Martyna Sedlmayr: Publications</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" media="screen and
+      (max-device-width: 480px)" href="mstyles.css">
   </head>
   <body>
     <div id="mainbox">
       <div id="header"> &nbsp;Martyna Sedlmayr </div>
-      <div id="menu">
-        <p><a href="index.html">Home</a></p>
-        <p><a href="cv.html">CV</a></p>
-        <p><a href="publications.html">Publications</a></p>
-        <p><a href="tutoring.html">Tutoring</a></p>
-        <p><a href="http://nick.sedlmayr.co.uk/index.html">Visit Nick</a></p>
-      </div>
+
+            <div id="menu">
+            <div w3-include-html="menu.html"></div>
+            <script>
+            w3.includeHTML();
+            </script>
+            </div>
+
       <div id="main_title">Publications</div>
       <ol class="pubs">
         <li>F. Loeffler, F. Foertsch, T. C. Popov, R. Mattes, D.S.
